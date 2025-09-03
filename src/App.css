@@ -1,0 +1,51 @@
+/* App main container */
+.app-container {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+  background: #fafafa;
+  min-height: 100vh;
+}
+
+/* Title */
+.app-title {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #ff6600;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+}
+
+/* Navbar container */
+.navbar {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  background: #fff;
+  padding: 12px 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+  margin-bottom: 30px;
+}
+
+/* Links inside navbar */
+.nav-link {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  padding: 8px 15px;
+  border-radius: 6px;
+  transition: all 0.2s ease-in-out;
+}
+
+/* Hover effect for nav links */
+.nav-link:hover {
+  background: #ff6600;
+  color: white;
+}
+
+/* Active link style (optional if you add NavLink later) */
+.nav-link.active {
+  background: #ff6600;
+  color: white;
+}
