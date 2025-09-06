@@ -56,5 +56,8 @@ const MenuList = () => {
     </>
   );
 };
+const Passing = ({menuItems}) => {
+  return <h2>Selecting {item.name}</h2>;
+}
 
 export default MenuList;

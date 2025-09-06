@@ -15,6 +15,7 @@ const App = () => {
         <Link to="/cart" className="nav-link">
           🛒 Cart
         </Link>
+        
       </nav>
       {/* Routes here */}
 
